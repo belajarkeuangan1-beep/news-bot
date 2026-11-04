@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 FEED = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
 WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 TZ = ZoneInfo("Asia/Jakarta")  # ganti kalau zona waktumu beda
-REMINDERS = [timedelta(minutes=30), timedelta(hours=5)]  # urut dari yang terkecil
+REMINDERS = [timedelta(minutes=30), timedelta(hours=200)]  # urut dari yang terkecil
 CURRENCIES = {"USD"}  # tambah kalau mau, misal {"USD", "EUR"}
 PRIORITAS = ("Non-Farm", "FOMC", "CPI")  # news yang ditaruh paling atas
 SENT_FILE = "sent.json"
